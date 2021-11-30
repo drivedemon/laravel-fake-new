@@ -15,12 +15,12 @@ class PostDTO extends DTO
     protected $imageUrl;
     protected $createdAt;
 
-    public function getId(): ?string
+    public function getId(): ?int
     {
         return $this->id;
     }
 
-    public function getAuthorId(): ?string
+    public function getAuthorId(): ?int
     {
         return $this->authorId;
     }
